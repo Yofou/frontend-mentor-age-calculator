@@ -13,7 +13,7 @@ import { defineProps } from "vue";
 
 ///// props/emits /////
 const props = defineProps<{
-  value?: string;
+  value?: number;
 }>();
 
 ///// refs, provide or inject then variables /////

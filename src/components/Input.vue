@@ -31,7 +31,7 @@ const props = defineProps<{
   placeholder?: string;
   min?: number;
   max?: number;
-  errorMessage?: string;
+  errorMessage?: string | null;
 }>();
 
 ///// refs, provide or inject then variables /////

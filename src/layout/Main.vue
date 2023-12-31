@@ -8,9 +8,7 @@
 import { defineProps } from 'vue';
 
 ///// props/emits /////
-defineProps({
-	
-});
+defineProps();
 
 ///// refs, provide or inject then variables /////
 
